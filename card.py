@@ -33,9 +33,9 @@ def my_test():
         total = my_lunh(card)
 
         if total % 10 == 0:
-            print("[-] 'Cartao' È Valido! ")
+            print("[+] 'Cartao' È Valido! ")
         else:
-            print("[+] 'O Cartao' È Invalido!! ")
+            print("[-] 'O Cartao' È Invalido!! ")
 
         new = input("Deseja Testar novamente? (s)/(n): ")
         if new == 's':
