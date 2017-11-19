@@ -30,7 +30,7 @@ def my_test():
 
         card = input("Informe os 16 Numeros Do CartAo: ")
 
-        total = my_lunh(card)
+        total = lunh(card)
 
         if total % 10 == 0:
             print("[+] 'Cartao' È Valido! ")
